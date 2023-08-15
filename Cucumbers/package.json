@@ -1,0 +1,20 @@
+{
+  "name": "cucumbers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js -f json:cucumber-report.json",
+    "report": "node report.js"
+  },
+  "author": "Lena",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.3.0"
+  },
+  "dependencies": {
+    "chai": "^4.3.7",
+    "cucumber-html-reporter": "^7.1.1",
+    "puppeteer": "^21.0.3"
+  }
+}

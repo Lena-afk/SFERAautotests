@@ -1,0 +1,77 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "search-chercher-tech-in-google;verify-result-for-google-search",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify result for google search",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The browser is open",
+            "match": {
+              "location": "features\\stepDefinitions\\AddNumbers.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 684075899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "open the google page",
+            "match": {
+              "location": "features\\stepDefinitions\\AddNumbers.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 664516300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "search for chercher tech",
+            "match": {
+              "location": "features\\stepDefinitions\\AddNumbers.js:18"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 104925199,
+              "error_message": "Error: Node is either not clickable or not an HTMLElement\n    at CDPElementHandle.clickablePoint (C:\\Users\\Козьякова Елена\\Downloads\\Тестирование\\Cucumbers\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\ElementHandle.js:156:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async CDPElementHandle.click (C:\\Users\\Козьякова Елена\\Downloads\\Тестирование\\Cucumbers\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\ElementHandle.js:252:26)\n    at async IsolatedWorld.click (C:\\Users\\Козьякова Елена\\Downloads\\Тестирование\\Cucumbers\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\IsolatedWorld.js:149:9)\n    at async World.<anonymous> (C:\\Users\\Козьякова Елена\\Downloads\\Тестирование\\Cucumbers\\features\\stepDefinitions\\AddNumbers.js:21:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Count the results",
+            "match": {
+              "location": "features\\stepDefinitions\\AddNumbers.js:24"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-chercher-tech-in-google",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Search chercher tech in google",
+    "tags": [],
+    "uri": "features\\AddNumbers.feature"
+  }
+]
